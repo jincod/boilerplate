@@ -1,0 +1,6 @@
+{
+  "name": "boilerplate",
+  "description": "Boilerplate for JavaScript apps",
+  "repository": "https://github.com/jincod/boilerplate",
+  "keywords": ["node.js", "javascript", "es2015"]
+}
