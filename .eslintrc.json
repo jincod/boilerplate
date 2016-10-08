@@ -1,9 +1,18 @@
 {
+	"env": {
+        "browser": true,
+        "node": true
+    },
 	"extends": ["airbnb"],
 	"rules": {
 		"comma-dangle": ["error", "never"],
 		"indent": ["error", "tab"],
 		"no-tabs": "off",
-		"object-curly-spacing": ["error", "never"]
+		"object-curly-spacing": ["error", "never"],
+		"no-param-reassign": ["error", { "props": false }],
+		"import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+		"react/forbid-prop-types": 0,
+		"react/jsx-indent": [2, "tab"],
+		"react/jsx-indent-props": [2, "tab"]
 	}
 }
