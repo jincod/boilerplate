@@ -9,8 +9,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "babel ./src -d lib",
     "test": "mocha --compilers js:babel-register ./test/**/*.spec.js",
+    "webpack": "webpack",
+    "build": "babel ./src -d lib",
     "lint": "eslint ./src/** ./test/**",
     "nodemon": "nodemon"
   },
@@ -33,6 +34,7 @@
     "eslint-plugin-jsx-a11y": "2.2.2",
     "eslint-plugin-react": "6.3.0",
     "mocha": "3.0.2",
-    "nodemon": "1.10.2"
+    "nodemon": "1.10.2",
+    "webpack": "2.2.1"
   }
 }
